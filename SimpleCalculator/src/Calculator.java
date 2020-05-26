@@ -146,7 +146,7 @@ public class Calculator implements ActionListener {
 			
 			try {
 			String firstNumber = num1.getText();
-			double firstNum = Integer.parseInt(firstNumber);
+			double firstNum = Double.parseDouble(firstNumber);
 			double product = firstNum * firstNum;
 			answer.setText("Answer: " + product);
 			}
