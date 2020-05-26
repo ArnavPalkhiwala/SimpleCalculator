@@ -29,10 +29,10 @@ public class Calculator implements ActionListener {
 
 	public static void main(String[] args) {
 		Calculator c = new Calculator();
-		c.calc();
+		c.calculate();
 	}
 
-	void calc() {
+	void calculate() {
 		frame.add(panel);
 		JOptionPane.showMessageDialog(null,
 				"Since this is a very basic calculator, you can only complete operations on two numbers. \nYou will choose your numbers by highlighting and replacing the texts for number 1 and number 2. \nFor the squaring, it will square number 1 by default so make sure to set the text of number 1 to the value you would like.");
